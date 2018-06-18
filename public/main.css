@@ -1,0 +1,55 @@
+h1 {
+  color           : rgb(151, 250, 151);
+  text-align      : center;
+  font-weight     : 600;
+}
+h2 {
+  color           : lightseagreen;
+  text-align      : center; 
+}
+.beginning {
+  color           : white;
+  background-color: silver;
+  position        : absolute;
+  text-align      : center;
+  margin          : 0px auto;
+  left            : 45%;
+  right           : 45%;
+  top             : 45%;
+
+}
+
+.landing {
+  background      : black;
+  width           : 100%;
+  position        : absolute;
+  height          : 100%;
+}
+
+/** terminal **/
+
+.terminal {
+  width           : 60%;
+  height          : 60%;
+  position        : absolute;
+  border          : 5px solid darkgray;
+  background-color: black;
+  left            : 20%;
+  right           : 20%;
+  top             : 20%;
+  bottom          : 20%;
+}
+.terminal textarea {
+  width           : 60%;
+  height          : 60%;
+  position        : absolute;
+  border          : none;
+  background-color: black;
+  left            : 20%;
+  right           : 20%;
+  top             : 20%;
+  bottom          : 20%;
+  color           : greenyellow;
+  resize          : none;
+
+}
